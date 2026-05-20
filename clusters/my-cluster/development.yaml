@@ -4,6 +4,8 @@ metadata:
   name: course-app-development
   namespace: flux-system
 spec:
+  dependsOn:
+    - name: dragonfly-operator
   interval: 5m0s
   path: ./overlays/development
   prune: true
