@@ -6,4 +6,4 @@ metadata:
 data:
   appmessage: "PES PATRON"
   appstore: redis
-  redisurl: redis://redis:6379/0
+  redisurl: redis://dragonfly:6379/0
