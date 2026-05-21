@@ -5,6 +5,6 @@ metadata:
   namespace: dragonfly-operator-system
 spec:
   interval: 5m0s
-  url: oci://ghcr.io/dragonflydb/dragonfly-operator/helm
+  url: oci://ghcr.io/dragonflydb/dragonfly-operator/helm/dragonfly-operator
   ref:
     tag: v1.5.0
